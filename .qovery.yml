@@ -1,0 +1,11 @@
+---
+application:
+  name: "qtemu-ryan"
+  project: "my-first-project"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-qtemu-ryan"
+  routes:
+  - application_name: "qtemu-ryan"
+    paths:
+    - "/*"
